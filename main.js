@@ -51,8 +51,8 @@ function draw() {
     draw_apple = "";
 
     for (let i = 1; i <=to_no; i++){
-      x= Math.floor(Math.random()*700);
-      y=Math.floor(Math.random()*400);
+      x= Math.floor(Math.random()*screenw);
+      y=Math.floor(Math.random()*screenh);
     image(appol, x,y,50,50)
     }
   }
